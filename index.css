@@ -1,10 +1,10 @@
-#tree{
-    //border: aqua 5px solid;
-}
 
 #teacher{
-    margin: 20px;
+    //margin: 20px;
     //border: red 5px solid;
+    position: absolute;
+    top: 50px;
+    left: 50px;
 }
 
 #type{
@@ -20,4 +20,40 @@
 #skill{
     margin: 20px;
     //border: orangered 5px solid;
+}
+
+
+
+#input{
+    position: absolute;
+    left:100px;
+    top: 50px;
+    width: 500px;
+    height: 600px;
+    //border: red 5px solid;
+}
+
+#tree{
+    position: absolute;
+    right:100px;
+    top: 50px;
+    width: 500px;
+    height: 600px;
+    //border: aqua 5px solid;
+}
+
+#text{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+#button{
+    position: absolute;
+    right: 50px;
+    top: 500px;
+    width: 50px;
+    height: 30px;
 }
