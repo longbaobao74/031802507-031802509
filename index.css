@@ -1,7 +1,7 @@
 
 #teacher{
     //margin: 20px;
-    //border: red 5px solid;
+    //border: red 6px solid;
     position: absolute;
     top: 50px;
     left: 50px;
@@ -9,17 +9,17 @@
 
 #type{
     margin: 20px;
-    //border: black 5px solid;
+    //border: black 6px solid;
 }
 
 #stu{
     margin: 20px;
-    //border: pink 5px solid;
+    //border: pink 6px solid;
 }
 
 #skill{
     margin: 20px;
-    //border: orangered 5px solid;
+    //border: orangered 6px solid;
 }
 
 
@@ -30,7 +30,7 @@
     top: 50px;
     width: 500px;
     height: 600px;
-    //border: red 5px solid;
+    //border: red 6px solid;
 }
 
 #tree{
@@ -39,7 +39,7 @@
     top: 50px;
     width: 500px;
     height: 600px;
-    //border: aqua 5px solid;
+    //border: aqua 6px solid;
 }
 
 #text{
