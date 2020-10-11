@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body >
-    <div id="input">
-        <textarea id="text">请输入数据</textarea>
-        <button id="button" onclick="a()">提交</button>
+<body>
+
+<div class="container" id="main">
+    <div class="row">
+        <div class="col-sm-4" id="input_area">
+            <div id="input_head" class="col-sm-12">输入数据</div>
+            <textarea id="text" class="col-sm-12">请输入数据</textarea>
+            <div class="col-sm-12" id="space"></div>
+            <button id="button" class="col-sm-12" onclick="submit()">提交</button>
+        </div>
+        <div class="col-sm-2" id="menu_area">
+            <div id="menu_head">导师列表</div>
+            <div id="menu" ></div>
+        </div>
+        <div class="col-sm-4" id="tree_area">
+            <div id="tree_head" class="col-sm-12">树形图</div>
+            <div id="tree" class="col-sm-12"></div>
+        </div>
     </div>
-    <div id="tree" onclick="alert('onclick')">
-    </div>
+</div>
+
 </body>
 </html>
